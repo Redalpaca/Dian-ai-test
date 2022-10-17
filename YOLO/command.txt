@@ -1,0 +1,3 @@
+python train.py --data tianchi/street_yolo.yaml --cfg tianchi/street_yolo5s.yaml --batch-size 4 --workers 2 --epochs 2 
+
+# original batch_size (16?) is too high for my GPU 
